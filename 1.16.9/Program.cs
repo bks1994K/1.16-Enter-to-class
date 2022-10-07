@@ -5,6 +5,7 @@ bool IdenticalDigitsInTwoNumbers(int a, int b)
     int tmpa = -1;
     int tmpb = -2;
     int bb = 0;
+
     while (tmpa != tmpb && a != 0)
     {
         tmpa = a % 10;
@@ -17,17 +18,18 @@ bool IdenticalDigitsInTwoNumbers(int a, int b)
             bb /= 10;
         }
 
+
+    }
         if (tmpa == tmpb)
         {
             return true;
         }
-        else if (tmpa != tmpb)
+        else 
         {
             return false;
         }
-        return bool;
-    }
+        
 }
 
-bool number = IdenticalDigitsInTwoNumbers();
+bool number = IdenticalDigitsInTwoNumbers(012987, 78941);
 Console.WriteLine(number);
