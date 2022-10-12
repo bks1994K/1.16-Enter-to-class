@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_1._16._1.Test</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\1.16.1\1.16.1.csproj" />
+    <ProjectReference Include="..\1.16.2\1.16.2.csproj" />
+    <ProjectReference Include="..\1.16.3\1.16.3.csproj" />
+    <ProjectReference Include="..\1.16.4\1.16.4.csproj" />
+    <ProjectReference Include="..\1.16.5\1.16.5.csproj" />
+    <ProjectReference Include="..\1.16.6\1.16.6.csproj" />
+    <ProjectReference Include="..\1.16.7\1.16.7.csproj" />
+    <ProjectReference Include="..\1.16.8\1.16.8.csproj" />
+    <ProjectReference Include="..\1.16.9\1.16.9.csproj" />
+  </ItemGroup>
+
+</Project>

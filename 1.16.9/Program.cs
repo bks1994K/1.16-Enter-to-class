@@ -5,6 +5,14 @@ bool IdenticalDigitsInTwoNumbers(int a, int b)
     int tmpa = -1;
     int tmpb = -2;
     int bb = 0;
+    if (a > 0)
+    {
+        a = -a;
+    }
+    if (b > 0)
+    {
+        b = -b;
+    }
 
     while (tmpa != tmpb && a != 0)
     {
